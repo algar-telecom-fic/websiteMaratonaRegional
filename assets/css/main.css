@@ -3611,9 +3611,10 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #4696e5;
+		/* background-color: rgba(0, 0, 0, 0.5); */
 		color: #d1e5f9;
 		padding: 4.5em 0 2.5em 0 ;
+		margin: 0;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3626,14 +3627,32 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/XXI-MRP-FUNDO-1.png"), url("images/pattern-size1.svg");
+		background-image: url("../../images/fotos2022/LAC05669.jpg"), url("images/pattern-size1.svg");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
-		background-size: auto, cover;
+		background-size: contain, cover;
 		/* height: 100vh; */
 		width: 100vw;
-		min-height: 35em;
+		/* min-height: 10em; */
+		/* height: 50vh; */
 	}
+
+	.contents{
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+	/* .carousel-item {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	  } */
+	  
+	  /* .carousel-item img {
+		display: inline-block;
+		max-width: 100%;
+		width: 80vw !important;
+		min-height: 40vh;
+		height: auto;
+	  } */
 
 		#header input[type="submit"],
 		#header input[type="reset"],
@@ -3892,7 +3911,10 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				background-image: url("images/XXI-MRP-FUNDO-1.png"), url("images/pattern-size1.svg");
+				background-image: url("../../images/fotos2022/LAC05669.jpg"), url("images/pattern-size1.svg");
+				background-position: top left, center center;
+				background-attachment: fixed, fixed;
+				background-size: contain, cover;
 			}
 
 		}
@@ -3943,7 +3965,10 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				background-image: url("images/XXI-MRP-FUNDO-1.png"), url("images/pattern-size1.svg");
+				background-image: url("../../images/fotos2022/LAC05669.jpg"), url("images/pattern-size1.svg");
+				background-position: top left, center center;
+				background-attachment: fixed, fixed;
+				background-size: contain, cover;
 			}
 
 				#header h1 {

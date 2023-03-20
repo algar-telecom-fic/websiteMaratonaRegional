@@ -4,16 +4,19 @@
 		<title>XXI Maratona Regional de Programação</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 		<link rel="icon" type="image/x-icon" href="/websiteMaratonaRegional/images/favicon.png">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	</head>
 
 	<body class="is-preload">
-		<!-- Header -->
 		<header id="header">
-			<div class="content">
+			<div class="contents p-3">
 				<h1>
 					<a href="#">XXI Maratona Regional de Programação</a>
 					<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-balloon-fill" viewBox="0 0 16 16">
@@ -28,14 +31,14 @@
 				</p>
 				<ul class="actions">
 					<li><a href="https://forms.gle/8vUwg7iY2fgriUqr8" target="_blank" class="button primary icon solid fa-arrow-right">Inscrição</a></li>
-					<li><a href="#four" class="button icon solid fa-chevron-down scrolly">Saber Mais</a></li>
+					<li><a href="#three" class="button icon solid fa-chevron-down scrolly">Saber Mais</a></li>
 				</ul>
 			</div>
-			<div class="image phone">
+			<!-- <div class="image phone">
 				<div class="inner">
 					<img src="images/imageTel.jpg" alt="fotos edição 2022" />
 				</div>
-			</div>
+			</div> -->
 		</header>
 
 		<!-- One
@@ -111,7 +114,7 @@
 								<path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
 							</svg>
 						</p>
-						<p>Taxa de inscrição:<strong> R$ 15,00</strong></p>
+						<p>Taxa de inscrição:<strong> R$ 20,00</strong></p>
 						<p>
 							Inscrições: <strong>20/03/2023 à 08/04/2023 </strong>
 							<a href="https://forms.gle/8vUwg7iY2fgriUqr8">
@@ -205,22 +208,25 @@
 			<footer id="footer">
 				<header>
 					<h5>
-						Saiba mais nas redes sociais do principal apoiador Brain
+						Saiba mais nas redes sociais do Brain
 					</h5>
 				</header>
 				<ul class="icons">
-					<li><a href="https://www.linkedin.com/company/inovacaobrain/" class="icon brands fa-linkedin"><span class="label">LinkedIn Brain</span></a></li>
 					<li><a href="https://www.instagram.com/brain.innovation/" class="icon brands fa-instagram"><span class="label">Instagram Brain</span></a></li>
+					<li><a href="https://www.linkedin.com/company/inovacaobrain/" class="icon brands fa-linkedin"><span class="label">LinkedIn Brain</span></a></li>
 				</ul>
 			</footer>
 
 		<!-- Scripts -->
+		<script lang="js">
+			const myCarousel = document.querySelector('#myCarousel');
+			const carousel = new mdb.Carousel(myCarousel);
+		</script>
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
 		<script src="assets/js/browser.min.js"></script>
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
