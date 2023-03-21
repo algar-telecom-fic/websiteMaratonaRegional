@@ -3649,12 +3649,12 @@ input, select, textarea {
 	}
 
 	.link{
-		color: white;
+		color: white !important;
 	}
 
 	.link-decoration:hover{
 		text-decoration: none;
-		color: #aaaaaa;
+		color: #aaaaaa !important;
 		/* color: inherit; */
 	}
 
