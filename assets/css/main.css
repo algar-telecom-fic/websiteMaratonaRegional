@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		color: #999999;
+		color: #333333 !important;
 	}
 
 	html, input, select, textarea {
@@ -3627,6 +3627,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
+		/* background-image: url("./images/KV-XXI-MRP.png"), url("images/pattern-size1.svg"); */
 		background-image: url("../../images/fotos2022/LAC05669.jpg"), url("images/pattern-size1.svg");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
@@ -3635,6 +3636,11 @@ input, select, textarea {
 		width: 100vw;
 		/* min-height: 10em; */
 		/* height: 50vh; */
+	}
+
+	.link-decoration:hover{
+		text-decoration: none;
+		/* color: inherit; */
 	}
 
 	.contents{
