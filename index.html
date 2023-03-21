@@ -1,10 +1,10 @@
 <!DOCTYPE HTML>
-<html>
+<html onmousedown="return false;">
 	<head>
 		<title>21ª Maratona Regional de Programação</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<link rel="icon" type="image/x-icon" href="/websiteMaratonaRegional/images/favicon.png">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
@@ -12,9 +12,46 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 	</head>
 
-	<body class="is-preload">
+	<body class="is-preload" id="one">
+		<nav class="navbar navbar-expand-lg bg-dark text-light sticky-top">
+			<div class="container-fluid col">
+				<span class="navbar-brand mb-0 h1">21ª Maratona Regional de Programação</span>
+			</div>
+		
+			<nav class="navbar navbar-dark bg-dark">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+			</nav>
+		
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+					<li class="nav-item">
+						<a class="nav-link active scrolly link link-decoration" aria-current="page" href="#one">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scrolly link link-decoration" href="#two">Apoio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scrolly link link-decoration" href="#three">Informações</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scrolly link link-decoration" href="#four">Cronograma</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link scrolly link link-decoration" href="#five">Linguagens</a>
+					</li>
+				</ul>
+			</div>
+		
+		</nav>
+
 		<header id="header" style="display: flex; justify-content: flex-end; align-items: flex-end;">
 			<div class="contents pb-3 pt-4 px-4 mr-5">
 				<h1>
@@ -30,7 +67,7 @@
 					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
 						<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
 					</svg>
-					<a href="https://goo.gl/maps/34cKF31RgRncvPUp8" target="_blank">UFU Campus Santa mônica - Av. João Naves de Ávila 2121</a>
+					<a href="https://goo.gl/maps/34cKF31RgRncvPUp8" target="_blank">UFU Campus Santa Mônica - Av. João Naves de Ávila 2121</a>
 				</p>
 				<ul class="actions">
 					<li><a href="https://forms.gle/8vUwg7iY2fgriUqr8" target="_blank" class="button primary icon solid fa-arrow-right">Inscreva-se</a></li>
@@ -69,7 +106,9 @@
 		-->
 
 		<!-- Two -->
-			<section id="two" class="wrapper">
+			<a class="anchor" id="two"></a>
+
+			<section class="wrapper">
 				<header class="major">
 					<h2>Apoio</h2>
 				</header>
@@ -78,7 +117,7 @@
 						<div class="image"><img src="images/logoBrain.jpg" alt="logo brain" /></div>
 						<div class="content">
 							<h3>Brain</h3>
-							<p>O <a class="link-decoration" href="http://inovacaobrain.com.br/">Brain</a> é o Instituto de Ciência e Tecnologia (ICT) fundado pela Algar Telecom, 
+							<p>O <a class="link-decoration" href="https://inovacaobrain.com.br/" target="_blank">Brain</a> é o Instituto de Ciência e Tecnologia (ICT) fundado pela Algar Telecom, 
 								localizado em Uberlândia (MG). O Centro de Inovação promove a conexão de ideias e pessoas – 
 								inspirado no modelo de inovação aberta – para o desenvolvimento de soluções disruptivas com o 
 								foco na criação de novos produtos, serviços e modelos de negócio em quatro temáticas principais: 
@@ -89,14 +128,14 @@
 						<div class="image"><img src="images/logoUFU.png" alt="logo ufu" /></div>
 						<div class="content">
 							<h3>UFU</h3>
-							<p>A <a class="link-decoration" href="https://ufu.br/">Universidade Federal de Uberlândia</a> é uma instituição de ensino superior pública brasileira, sendo uma das 63 universidades públicas federais do país e uma das principais do estado de Minas Gerais, no Sudeste do Brasil.</p>
+							<p>A <a class="link-decoration" href="https://ufu.br/" target="_blank" >Universidade Federal de Uberlândia</a> é uma instituição de ensino superior pública brasileira, sendo uma das 63 universidades públicas federais do país e uma das principais do estado de Minas Gerais, no Sudeste do Brasil.</p>
 						</div>
 					</section>
 				</div>
 			</section>
 
-		<!-- Four -->
-			<section id="three" class="wrapper">
+			<a class="anchor" id="three"></a>
+			<section class="wrapper">
 				<div class="inner">
 
 					<header class="major">
@@ -139,6 +178,7 @@
 						</p>
 						<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.2860800256312!2d-48.2638886730468!3d-18.918727300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a4450b373ada6d%3A0x2cd98cdbea40d2c!2sFaculdade%20de%20Computa%C3%A7%C3%A3o%20-%20FACOM!5e0!3m2!1spt-BR!2sbr!4v1678720132749!5m2!1spt-BR!2sbr" width="1080" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 						<iframe class="localizacaoGoogle" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.2860800256312!2d-48.2638886730468!3d-18.918727300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a4450b373ada6d%3A0x2cd98cdbea40d2c!2sFaculdade%20de%20Computa%C3%A7%C3%A3o%20-%20FACOM!5e0!3m2!1spt-BR!2sbr!4v1678720132749!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<a class="anchor" id="four"></a>
 						<br/>
 						<br/>
 						<header>
@@ -158,13 +198,14 @@
 
 						<br/>
 						<br/>
+						<a class="anchor" id="five"></a>
 						<header>
-							<h3>Linguagens</h3>
+							<h3>Linguagens de Programação</h3>
 						</header>
 						<ul class="icons">
 							<li>C/C++</li>
 							<li>Java</li>
-							<li>python</li>
+							<li>Python</li>
 						</ul>
 
 						<br/>

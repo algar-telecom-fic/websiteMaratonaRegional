@@ -91,6 +91,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		scroll-padding-top: 30000px;
 	}
 
 	*, *:before, *:after {
@@ -3609,7 +3610,6 @@ input, select, textarea {
 	}
 
 /* Header */
-
 	#header {
 		/* background-color: rgba(0, 0, 0, 0.5); */
 		color: #d1e5f9;
@@ -3641,8 +3641,20 @@ input, select, textarea {
 		/* height: 50vh; */
 	}
 
+	a.anchor {
+		display: block;
+		position: relative;
+		top: -200px;
+		visibility: hidden;
+	}
+
+	.link{
+		color: white;
+	}
+
 	.link-decoration:hover{
 		text-decoration: none;
+		color: #aaaaaa;
 		/* color: inherit; */
 	}
 
