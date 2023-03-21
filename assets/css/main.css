@@ -3628,7 +3628,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		/* background-image: url("./images/KV-XXI-MRP.png"), url("images/pattern-size1.svg"); */
-		background-image: url("./images/KV-XXI-MRP.png"), url("images/pattern-size1.svg");
+		background-image: url("./images/KV-XXI-MRP.jpg"), url("images/pattern-size1.svg");
 		/* background-image: url("../../images/fotos2022/LAC05669.jpg"), url("images/pattern-size1.svg"); */
 		/* background-position: top left, center center; */
 		background-position: 0 200px 0 10px;
@@ -3920,7 +3920,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				background-image: url("./images/KV-XXI-MRP.png"), url("images/pattern-size1.svg");
+				background-image: url("./images/KV-XXI-MRP.jpg"), url("images/pattern-size1.svg");
 				/* background-image: url("../../images/fotos2022/LAC05669.jpg"), url("images/pattern-size1.svg"); */
 				/* background-position: top left, center center; */
 				background-position: 0 200px 0 10px;
@@ -3977,7 +3977,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				background-image: url("./images/KV-XXI-MRP.png"), url("images/pattern-size1.svg");
+				background-image: url("./images/KV-XXI-MRP.jpg"), url("images/pattern-size1.svg");
 				/* background-image: url("../../images/fotos2022/LAC05669.jpg"), url("images/pattern-size1.svg"); */
 				/* background-position: top left, center center; */
 				background-position: 0 200px 0 10px;
